@@ -7,8 +7,24 @@
         "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
         "C_Cpp.default.cppStandard": "c++14",
         "C_Cpp.default.cStandard": "c11",
-        "C_Cpp.formatting": "Disabled",
-        "C_Cpp.intelliSenseEngine": "Default",
+        "C_Cpp.formatting": "disabled",
+
+        "C_Cpp.errorSquiggles": "enabled",
+        "C_Cpp.intelliSenseEngine": "default",
+        "editor.quickSuggestions": {
+                "other": true,
+                "comments": false,
+                "strings": true
+        },
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.parameterHints.enabled": true,
+        "editor.parameterHints.cycle": true,
+        "editor.suggest.showIcons": true,
+        "editor.acceptSuggestionOnCommitCharacter": true,
+        "editor.autoClosingBrackets": "always",
+        "editor.autoClosingQuotes": "always",
+        "editor.quickSuggestionsDelay": 100,
+
         "C_Cpp.vcpkg.enabled": false,
         "C_Cpp.workspaceParsingPriority": "low",
         "cmake.buildBeforeRun": true,
